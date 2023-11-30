@@ -1,0 +1,52 @@
+body {
+    background-image:url('website-background-image-for-simple--game.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: inherit;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.rps-logo{
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+ 
+.playerButtons {
+    display: flex;
+    gap : 50px;
+    
+}
+
+span{
+    font-weight: bold;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.scoreboard{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.output{
+    margin-bottom: 30px;
+}

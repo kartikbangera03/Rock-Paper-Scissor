@@ -2,10 +2,52 @@
 <html lang="en">
     <head>
         <meta charset = "UTF-8">
-        <script src  = "script.js"></script>
+        <script src  = "script.js" defer></script>            
+        <link rel = "stylesheet" href= "style.css">
     </head>
     <body>
-        <p>Rock Paper Scissor Game</p>
+        
+        <div class  = "pageLogo" >
+            <img class = "rps-logo"src = "rps-logo.png" alt = "rps-logo"/>
+        </div>
+
+        <div class = "scoreboard">
+            <span>New Player</span>
+            <div>
+                <span id = "userScoreInput">0</span>
+                <span>  : </span>
+                <span id = "compScoreInput">0</span>
+                </div>
+            <span>Computer</span>
+        </div>
+        <div class = output>
+            <span id = "outputFinal">Game Begins !! Choose your option</span>
+        </div>
+
+<!-- 
+        <div class = "playerButtons">
+            <button class  = "button1"  type = "button" >
+                <img src="rock.png" alt = "rock" />
+            </button>
+            <button class  = "button2" type = "button">
+                <img src="paper.png" alt = "paper" />
+            </button>           
+            <button class  = "button2" type = "button">
+                <img src="scissors.png" alt = "scissors" />
+            </button>
+        </div>
+ -->
+
+ <div class = "playerButtons">
+    
+        <img id = "button1" type = "button" src="rock.png" alt="rock" />
+
+        <img id = "button2" src="paper.png" alt = "paper" />
+
+        <img id = "button3" src="scissors.png" alt = "scissors" />
+
+</div>
+
         
     </body>
 </html>
